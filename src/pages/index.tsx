@@ -5,7 +5,7 @@ import CustomHeader from '../components/CustomHeader';
 const Index: NextPage = () => {
 	return (
 		<>
-			<CustomHeader />
+			<CustomHeader title='Manor Mendel'/>
 
 			<main className="min-h-screen flex justify-center items-center" dir="rtl">
 				<section className="bg-white shadow-xl flex flex-col w-96 relative justify-end rounded-xl overflow-hidden group m-3">
